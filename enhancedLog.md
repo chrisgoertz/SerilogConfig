@@ -4,7 +4,7 @@ dotnet add package Serilog.Enrichers.CallerInformation
 ---
 
 ```
-```
+``` c#
 using Serilog;
 using Serilog.Enrichers.CallerInformation;
 
