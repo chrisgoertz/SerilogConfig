@@ -1,4 +1,5 @@
 # CallerInformation enrichers
+Standard Konfiguration um im Log Aufrufer und Zeilennummer angezeigt zu bekommen.
 ```
 dotnet add package Serilog.Enrichers.CallerInformation
 ```
@@ -21,3 +22,6 @@ Log.Logger = new LoggerConfiguration()
     .CreateLogger();
 ```
 
+# Ausgabe
+[12:34:56 INF] Verbindung hergestellt  
+(in MyService.Connect Service.cs:42)
