@@ -1,10 +1,9 @@
 # CallerInformation enrichers
----
-dotnet add package Serilog.Enrichers.CallerInformation
----
-
 ```
-``` c#
+dotnet add package Serilog.Enrichers.CallerInformation
+```
+
+``` csharp
 using Serilog;
 using Serilog.Enrichers.CallerInformation;
 
@@ -22,4 +21,3 @@ Log.Logger = new LoggerConfiguration()
     .CreateLogger();
 ```
 
-```
